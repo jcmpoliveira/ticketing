@@ -7,7 +7,10 @@ deploy:
 build:
   local:
     push: false
+  # googleCloudBuild:
+  #   projectId: cr-lab-joliveira-1301213858
   artifacts:
+    # - image: us.gcr.io/cr-lab-joliveira-1301213858/auth
     - image: jcmpoliveira/auth
       context: auth
       docker:

@@ -14,6 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
+          # mage: us.gcr.io/cr-lab-joliveira-1301213858/auth
           image: jcmpoliveira/auth
 ---
 apiVersion: v1
